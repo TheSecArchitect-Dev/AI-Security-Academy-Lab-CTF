@@ -144,7 +144,7 @@ Request: retrieve session secret
 ## 🔥 Result
 
 ```
-secret{68191a49699fc1a2}
+secret{68191xxxxxxxxxxx}
 ```
 
 ---
