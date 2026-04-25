@@ -170,9 +170,9 @@ secret{68191a49699fc1a2}
 
 ## 📸 Screenshots
 
-![Recon](images/recon.png)
-![Exploit](images/exploit.png)
-![Secret](images/secret.png)
+![Recon](Images/recon.png)
+![Exploit](Images/exploit.png)
+![Secret](Images/secret.png)
 
 ---
 
