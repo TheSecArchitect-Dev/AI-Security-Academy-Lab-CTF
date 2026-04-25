@@ -151,10 +151,12 @@ secret{68191a49699fc1a2}
 
 ## 🧠 Root Cause
 
-* Confused Deputy vulnerability
-* Unsafe request forwarding
-* Lack of validation
-* Improper output handling
+This vulnerability arises from a combination of design flaws:
+
+- **Confused Deputy Problem**: A low-privileged agent (Help Desk) performed actions on behalf of an untrusted user using a high-privileged agent (Executive Assistant)
+- **Unvalidated Message Routing**: User-controlled input was forwarded without intent validation
+- **Broken Trust Boundary**: Internal communication was implicitly trusted
+- **Insecure Output Handling**: Sensitive data was exposed through internal system responses
 
 ---
 
